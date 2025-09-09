@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       # image: quay.io/redhat-tssc/task-runner:1.7
-      image: quay.io/lucarval/tssc-task-runner:latest
+      image: quay.io/lucarval/tssc-task-runner:latest@sha256:6d83258d791f10ce416f3ca9fcf0871b712a4835b874d0b2cb4ee6651e701268
       options: --privileged
     environment: production
 
